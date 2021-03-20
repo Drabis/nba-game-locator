@@ -16,7 +16,7 @@ The app will perfom the following logic:
 * This is how the app looks
 
 <img width="1431" alt="Screen Shot 2021-03-20 at 1 54 58 PM" src="https://user-images.githubusercontent.com/76567790/111880827-0e16dd80-8984-11eb-8c73-331dd63a5bc6.png">
-![Screenshot](<img width="1395" alt="Screen Shot 2021-03-20 at 1 55 30 PM" src="https://user-images.githubusercontent.com/76567790/111880817-022b1b80-8984-11eb-81d0-4d716ae984ec.png">
+<img width="1395" alt="Screen Shot 2021-03-20 at 1 55 30 PM" src="https://user-images.githubusercontent.com/76567790/111880817-022b1b80-8984-11eb-81d0-4d716ae984ec.png">
 )
 # License
 * MIT
