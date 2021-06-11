@@ -34,7 +34,7 @@ fetch(
   {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "a6c2bc5e36msh36a0b4534b1f40dp1877cejsn8d86f8e13484",
+      "x-rapidapi-key": "super secret API key",
       "x-rapidapi-host": "api-basketball.p.rapidapi.com",
     },
   }
