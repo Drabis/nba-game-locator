@@ -33,12 +33,12 @@ function handleSearchFormSubmit(event) {
 searchFormEl.addEventListener("submit", handleSearchFormSubmit);
 
 // Fetch that gets 2020-2021 season team information
-fetch(
+function getTeam() { fetch(
   "https://api-basketball.p.rapidapi.com/teams?league=12&season=2020-2021",
   {
     method: "GET",
     headers: {
-      "x-rapidapi-key": key,
+      "x-rapidapi-key": "a6c2bc5e36msh36a0b4534b1f40dp1877cejsn8d86f8e13484",
       "x-rapidapi-host": "api-basketball.p.rapidapi.com",
     },
   }
@@ -54,7 +54,7 @@ fetch(
   .catch((err) => {
     console.error(err);
   });
-
+}
 // Function with for loop which populates team names in drop down menu
 function displayTeamData(data) {
   for (var i = 0; i < data.response.length - 2; i++) {
@@ -67,3 +67,4 @@ function displayTeamData(data) {
     teamEl.appendChild(teamTitle);
   }
 }
+getTeam();
