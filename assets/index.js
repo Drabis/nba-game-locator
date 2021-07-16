@@ -1,7 +1,10 @@
 // DOM variables
+//  var myKey = config.key;
+//  var myHost = config.host;
 var searchFormEl = document.querySelector("#search-form");
 var teamEl = document.querySelector("#team-dropdown");
-var myKey = config.MY_KEY;
+
+
 
 // Function to set localStorage
 document.getElementById("team-dropdown").onchange = function () {
@@ -35,7 +38,7 @@ fetch(
   {
     method: "GET",
     headers: {
-      "x-rapidapi-key": myKey,
+      "x-rapidapi-key": key,
       "x-rapidapi-host": "api-basketball.p.rapidapi.com",
     },
   }
