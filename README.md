@@ -1,4 +1,3 @@
-# PROJECT 01
 ## BALLN App
 * [Live Link]( https://drabis.github.io/nba-game-locator/)
 
