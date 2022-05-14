@@ -58,7 +58,7 @@ function getStats(teamID) {
     fetch("https://api-basketball.p.rapidapi.com/statistics?league=12&season=2020-2021&team=" + teamID, {
 	    "method": "GET",
 	    "headers": {
-            "x-rapidapi-key": "a02badb577msh53c62c24f7e4112p157b9bjsne248c865880a",
+            "x-rapidapi-key": "a6c2bc5e36msh36a0b4534b1f40dp1877cejsn8d86f8e13484",
             "x-rapidapi-host": "api-basketball.p.rapidapi.com"
         }
     })
